@@ -25,7 +25,14 @@ function convertingStringIntoNumber(num) {
 };
 console.log(convertingStringIntoNumber("456"));
 
-function capitalize(str){
-  return  String(str).charAt(0).toUpperCase() + String(str).slice(1);
+function capitalize(str) {
+    return String(str).charAt(0).toUpperCase() + String(str).slice(1);
 }
 console.log(capitalize("amazon"));
+
+let a = 5;
+while(a >= 1){
+    console.log(a)
+    a--
+
+}
