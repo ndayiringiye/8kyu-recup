@@ -1,3 +1,4 @@
+
 const greeting = "hello world";
 console.log(greeting);
 
@@ -44,7 +45,32 @@ if (age >= 18) {
     console.log("minor")
 };
 
-function reverseArray(arr){
+function reverseArray(arr) {
     return arr.reverse();
 }
 console.log(reverseArray(["good afternoon teacher", "the day how was it going", "what you decide to achieve it for today"]));
+
+const colors = ["red", "blue", "green"];
+const removeArr = colors.pop();
+console.log(colors);
+
+function removeVowels(strings) {
+    const vowels = ["a", "e", "i", "o", "u"];
+    const result = strings.split("").filter(char => !vowels.includes(char.toLowerCase())).join("");
+    return result;
+}
+
+console.log(removeVowels("your welcame programming life and always gain much money"));
+
+const person = {
+    name: "david",
+    age: "100",
+    city: "calfonia",
+};
+
+console.log(person)
+function sumAArr(arrNu) {
+    const sum = arrNu.reduce((a, b) => a + b);
+    return sum
+}
+console.log(sumAArr([23, 45, 67, 89]));
