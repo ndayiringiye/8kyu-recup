@@ -19,8 +19,13 @@ function isOdd(n) {
 };
 console.log(isOdd(100));
 
-function convertingStringIntoNumber(num){
-    const integerNumber=  Math.floor(num);
+function convertingStringIntoNumber(num) {
+    const integerNumber = Math.floor(num);
     return integerNumber;
 };
 console.log(convertingStringIntoNumber("456"));
+
+function capitalize(str){
+  return  String(str).charAt(0).toUpperCase() + String(str).slice(1);
+}
+console.log(capitalize("amazon"));
