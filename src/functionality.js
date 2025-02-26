@@ -31,8 +31,15 @@ function capitalize(str) {
 console.log(capitalize("amazon"));
 
 let a = 5;
-while(a >= 1){
+while (a >= 1) {
     console.log(a)
     a--
 
-}
+};
+
+const age = 34;
+if (age >= 18) {
+    console.log("adult")
+} else {
+    console.log("minor")
+};
