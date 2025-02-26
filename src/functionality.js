@@ -43,3 +43,8 @@ if (age >= 18) {
 } else {
     console.log("minor")
 };
+
+function reverseArray(arr){
+    return arr.reverse();
+}
+console.log(reverseArray(["good afternoon teacher", "the day how was it going", "what you decide to achieve it for today"]));
