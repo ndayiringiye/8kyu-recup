@@ -74,3 +74,12 @@ function sumAArr(arrNu) {
     return sum
 }
 console.log(sumAArr([23, 45, 67, 89]));
+
+function isPalindrome(strs) {
+    const findPar = strs.split("").reverse().join(""); 
+    return findPar === strs ? "true" : "false"; 
+}
+
+console.log(isPalindrome("igi")); 
+console.log(isPalindrome("hello")); 
+console.log(isPalindrome("madam")); 
